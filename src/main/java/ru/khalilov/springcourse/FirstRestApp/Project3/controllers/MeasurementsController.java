@@ -1,4 +1,4 @@
-package ru.khalilov.springcourse.FirstRestApp.controllers;
+package ru.khalilov.springcourse.FirstRestApp.Project3.controllers;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,15 +6,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.khalilov.springcourse.FirstRestApp.DTO.MeasurementsDTO;
-import ru.khalilov.springcourse.FirstRestApp.DTO.MeasurementsResponse;
-import ru.khalilov.springcourse.FirstRestApp.models.Measurements;
-import ru.khalilov.springcourse.FirstRestApp.services.MeasurementsService;
-import ru.khalilov.springcourse.FirstRestApp.services.MeasurementsServiceInterface;
-import ru.khalilov.springcourse.FirstRestApp.utils.ErrorsUtil;
-import ru.khalilov.springcourse.FirstRestApp.utils.MeasurementOrSensorException;
-import ru.khalilov.springcourse.FirstRestApp.utils.MeasurementOrSensorExceptionResponse;
-import ru.khalilov.springcourse.FirstRestApp.utils.MeasurementsValidator;
+import ru.khalilov.springcourse.FirstRestApp.Project3.DTO.MeasurementsDTO;
+import ru.khalilov.springcourse.FirstRestApp.Project3.DTO.MeasurementsResponse;
+import ru.khalilov.springcourse.FirstRestApp.Project3.models.Measurements;
+import ru.khalilov.springcourse.FirstRestApp.Project3.services.MeasurementsServiceInterface;
+import ru.khalilov.springcourse.FirstRestApp.Project3.utils.ErrorsUtil;
+import ru.khalilov.springcourse.FirstRestApp.Project3.utils.MeasurementOrSensorException;
+import ru.khalilov.springcourse.FirstRestApp.Project3.utils.MeasurementOrSensorExceptionResponse;
+import ru.khalilov.springcourse.FirstRestApp.Project3.utils.MeasurementsValidator;
 
 import javax.validation.Valid;
 import java.time.LocalDateTime;

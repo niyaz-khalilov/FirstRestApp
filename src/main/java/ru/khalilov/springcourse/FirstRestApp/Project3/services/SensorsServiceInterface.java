@@ -1,6 +1,6 @@
-package ru.khalilov.springcourse.FirstRestApp.services;
+package ru.khalilov.springcourse.FirstRestApp.Project3.services;
 
-import ru.khalilov.springcourse.FirstRestApp.models.Sensors;
+import ru.khalilov.springcourse.FirstRestApp.Project3.models.Sensors;
 
 import java.util.Optional;
 

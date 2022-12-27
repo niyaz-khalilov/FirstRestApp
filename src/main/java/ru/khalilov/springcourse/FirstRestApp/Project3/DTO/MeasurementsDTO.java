@@ -1,4 +1,4 @@
-package ru.khalilov.springcourse.FirstRestApp.DTO;
+package ru.khalilov.springcourse.FirstRestApp.Project3.DTO;
 
 import lombok.*;
 

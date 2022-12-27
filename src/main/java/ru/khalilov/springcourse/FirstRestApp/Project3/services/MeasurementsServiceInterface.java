@@ -1,6 +1,6 @@
-package ru.khalilov.springcourse.FirstRestApp.services;
+package ru.khalilov.springcourse.FirstRestApp.Project3.services;
 
-import ru.khalilov.springcourse.FirstRestApp.models.Measurements;
+import ru.khalilov.springcourse.FirstRestApp.Project3.models.Measurements;
 
 import java.util.List;
 

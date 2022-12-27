@@ -1,4 +1,4 @@
-package ru.khalilov.springcourse.FirstRestApp.models;
+package ru.khalilov.springcourse.FirstRestApp.Project3.models;
 
 import lombok.*;
 

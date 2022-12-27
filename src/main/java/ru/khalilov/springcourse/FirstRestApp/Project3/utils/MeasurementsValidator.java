@@ -1,11 +1,11 @@
-package ru.khalilov.springcourse.FirstRestApp.utils;
+package ru.khalilov.springcourse.FirstRestApp.Project3.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import ru.khalilov.springcourse.FirstRestApp.models.Measurements;
-import ru.khalilov.springcourse.FirstRestApp.services.SensorsServiceInterface;
+import ru.khalilov.springcourse.FirstRestApp.Project3.models.Measurements;
+import ru.khalilov.springcourse.FirstRestApp.Project3.services.SensorsServiceInterface;
 
 @Component
 public class MeasurementsValidator implements Validator {

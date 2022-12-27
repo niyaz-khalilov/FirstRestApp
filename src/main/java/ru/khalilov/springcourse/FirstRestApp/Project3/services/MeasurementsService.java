@@ -1,10 +1,10 @@
-package ru.khalilov.springcourse.FirstRestApp.services;
+package ru.khalilov.springcourse.FirstRestApp.Project3.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.khalilov.springcourse.FirstRestApp.models.Measurements;
-import ru.khalilov.springcourse.FirstRestApp.repositories.MeasurementsRepository;
+import ru.khalilov.springcourse.FirstRestApp.Project3.models.Measurements;
+import ru.khalilov.springcourse.FirstRestApp.Project3.repositories.MeasurementsRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;

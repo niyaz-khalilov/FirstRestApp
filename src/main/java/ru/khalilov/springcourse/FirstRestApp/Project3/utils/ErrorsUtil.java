@@ -1,4 +1,4 @@
-package ru.khalilov.springcourse.FirstRestApp.utils;
+package ru.khalilov.springcourse.FirstRestApp.Project3.utils;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
